@@ -1,0 +1,9 @@
+    <section class="recommendations">
+        <div class="recommendation">
+            <h2>$summary</h2>
+            <hr size="1.5" color="$color">
+            <p>$detail</p>
+            $source
+            <hr size="1.5" color="$color"><br>
+        </div>
+    </section>
