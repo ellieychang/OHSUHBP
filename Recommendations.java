@@ -12,7 +12,7 @@ public class Recommendations {
         List<CardInfo> recommendations = null;
 
         String file = "src/response-Smoker.json";
-        // String file = args[0]; // input should be src/JSON_FILE_NAME
+        // String file = args[0];
         String path = String.valueOf(Paths.get(file));
 
         JsonReader reader = new JsonReader(new FileReader(path));
